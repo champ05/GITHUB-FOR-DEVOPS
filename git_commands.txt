@@ -1,6 +1,6 @@
  Id CommandLine
   -- -----------
-   1 try { . "c:\Users\User\AppData\Local\Programs\Microsoft VS Co...
+   
    2 ll
    3 ls
    4 clear
@@ -34,12 +34,11 @@
 
 PS C:\Devops\github-for-devops>
  Id CommandLine
-  -- -----------
-   1 try { . "c:\Users\User\AppData\Local\Programs\Microsoft VS Code\resource...
+  -
    2 ls
-   3 git remote add origin https://github.com/champ05/GITHUB-FOR-DEVOPS.git     
+   3 
    4 git remote -v
-   5 git remote set-url origin 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@githu...
+   5 git remote set-url origin 
    6 clear
    7 git remote -v
    8 history
@@ -48,7 +47,7 @@ PS C:\Devops\github-for-devops>
   11 git push origin main
   12 clear
   13 git remote remove origin
-  14 git remote add origin https://github.com/champ05/GITHUB-FOR-DEVOPS.git     
+  14 
   15 git push -u origin main
   16 git branch
   17 git push -u origin master
@@ -62,7 +61,7 @@ PS C:\Devops\github-for-devops>
   25 git commit -m "more change"
   26 ls
   27 git remote -v
-  28 git remote set-url origin https://ghp_gcdFWDg9QRfy7JouZ0pCtVjfyRq1Js1GsL... 
+  28 git remote set-url origin 
   29 git remote -v
   30 git push origin master
   31 clear
