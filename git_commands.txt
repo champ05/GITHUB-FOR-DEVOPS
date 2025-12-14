@@ -1,0 +1,68 @@
+ Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\User\AppData\Local\Programs\Microsoft VS Co...
+   2 ll
+   3 ls
+   4 clear
+   5 ls
+   6 rm .\python.py
+   7 ll
+   8 ls
+   9 clear
+  10 git init
+  11 dir
+  12 ls
+  13 ls -a
+  14 ls
+  15 dir -Force
+  16 clear
+  17 git status
+  18 git status
+  19 git add testing.py
+  20 git status
+  21 git commit -m "added testing files"
+  22 git status
+  23 rm .\testing.py
+  24 ls
+  25 git status
+  26 git restore testing.py
+  27 ls
+  28 cleae
+  29 clear
+  30 git status
+
+
+PS C:\Devops\github-for-devops>
+ Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\User\AppData\Local\Programs\Microsoft VS Code\resource...
+   2 ls
+   3 git remote add origin https://github.com/champ05/GITHUB-FOR-DEVOPS.git     
+   4 git remote -v
+   5 git remote set-url origin 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@githu...
+   6 clear
+   7 git remote -v
+   8 history
+   9 git push origin master
+  10 git remote -v
+  11 git push origin main
+  12 clear
+  13 git remote remove origin
+  14 git remote add origin https://github.com/champ05/GITHUB-FOR-DEVOPS.git     
+  15 git push -u origin main
+  16 git branch
+  17 git push -u origin master
+  18 ls
+  19 git push -u origin master
+  20 git init
+  21 git add.
+  22 git .add
+  23 git.add
+  24 git add Changes.txt
+  25 git commit -m "more change"
+  26 ls
+  27 git remote -v
+  28 git remote set-url origin https://ghp_gcdFWDg9QRfy7JouZ0pCtVjfyRq1Js1GsL... 
+  29 git remote -v
+  30 git push origin master
+  31 clear
