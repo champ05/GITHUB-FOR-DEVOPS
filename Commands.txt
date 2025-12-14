@@ -1,0 +1,114 @@
+Some useful commands to practice
+GIT PRACTICE PROJECT (BEGINNER → ADVANCED)
+
+============================================================
+PHASE 1 — Initialize Project
+============================================================
+mkdir git-practice
+cd git-practice
+git init
+
+echo "Welcome to Git Practice" > readme.txt
+git add readme.txt
+git commit -m "Initial commit"
+
+
+============================================================
+PHASE 2 — Branching & Development
+============================================================
+git branch dev
+git checkout dev
+
+echo "Login feature started" > login.txt
+git add login.txt
+git commit -m "Added login feature"
+
+echo "Backend login code" >> login.txt
+git add login.txt
+git commit -m "Updated login backend"
+
+
+============================================================
+PHASE 3 — Merge to main
+============================================================
+git checkout master
+git merge dev
+
+
+============================================================
+PHASE 4 — Merge Conflict Practice
+============================================================
+git checkout -b feature-user
+
+echo "User module added" >> readme.txt
+git add readme.txt
+git commit -m "User module update"
+
+git checkout master
+
+echo "Main branch update" >> readme.txt
+git add readme.txt
+git commit -m "Main branch update"
+
+git merge feature-user
+# Fix conflicts manually, then:
+git add readme.txt
+git commit -m "Resolved merge conflict"
+
+
+============================================================
+PHASE 5 — Stash Practice
+============================================================
+echo "Temporary changes" >> temp.txt
+git stash
+git stash list
+git stash pop
+
+
+============================================================
+PHASE 6 — Rebase Practice
+============================================================
+git checkout -b feature-rebase
+echo "Rebase test" >> rebase.txt
+git add rebase.txt
+git commit -m "Added rebase test"
+
+git rebase master
+
+
+============================================================
+PHASE 7 — Reset Practice (Undo)
+============================================================
+git reset --soft HEAD~1
+git reset --hard HEAD~1
+
+
+============================================================
+PHASE 8 — Revert Practice (Safe Undo)
+============================================================
+git log --oneline
+git revert <commit-id>
+
+
+============================================================
+PHASE 9 — Tagging (Release)
+============================================================
+git tag v1.0
+git tag v1.1
+git tag -a v2.0 -m "Release 2.0"
+git push origin --tags
+
+
+============================================================
+PHASE 10 — DevOps Workflow Simulation
+============================================================
+git checkout -b feature-payment
+echo "Processing payments" > payment.txt
+git add payment.txt
+git commit -m "Added payment processing"
+
+git fetch origin
+git rebase origin/master
+
+git push origin feature-payment
+# Create pull request on GitHub/GitLab
